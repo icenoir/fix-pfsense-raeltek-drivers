@@ -15,8 +15,10 @@ To install the Realtek kmod pkg, open a shell (via ssh) and follow the below:
 
 Step 1: Download and install the package:
 
+'''
 fetch -v https://pkg.opnsense.org/FreeBSD:12:amd64/snapshots/latest/All/realtek-re-kmod-196.04.txz
 pkg install -f -y realtek-re-kmod-196.04.txz
+'''
 
 Step 2: Make sure the changes apply on boot:
 
